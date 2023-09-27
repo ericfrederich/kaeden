@@ -9,6 +9,8 @@ packages = [{include = "kaeden", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 
+[tool.poetry.scripts]
+kaeden = 'kaeden.cli:main'
 
 [build-system]
 requires = ["poetry-core"]
